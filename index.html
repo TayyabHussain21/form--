@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>registration form</title>
+  </head>
+
+  <body>
+    <form action="/submit_form" method="post"></form>
+      <div> <input required type="text" placeholder="Enter First Name" /></div> 
+      <br />
+      <div> <input required type="text" placeholder="Enter Last Name "/></div>
+      <br />
+      <div> <input required type="password" placeholder="password"/></div>
+      <br />
+      <div>Bio : <textarea name="" id="" cols="30" rows="10"></textarea></div>
+      <br />
+      
+      <fieldset>
+       <legend>Gender:</legend> <br />
+      <label for="MALE"><input  type="radio" name="Gender" id="MALE" /> MALE </label> <br>
+        <label for="FEMALE"><input type="radio" name="Gender" id="FEMALE" /> FEMALE </label> <br>
+      
+        <label for="OTHER"><input type="radio" name="Gender" id="OTHER"/>  OTHER </label>  <br>
+        </fieldset> <br>
+<fieldset>
+        <legend>Intersets:</legend> <br />
+       
+
+        <div><label for="Music"><input type="checkbox" id="Music"/> Music </label> <br>
+        <label for="Sports"><input type="checkbox" id="Sports"/> Sports </label> <br>
+        <label for="Reading"><input type="checkbox" id="Reading"/> Reading </label> <br>
+
+      </fieldset> <br>
+        Country :
+        <select name="" id="">
+          <option value="">Pakistan</option>
+          <option value="">India</option>
+          <option value="">United state</option>
+          <option value="">China</option>
+          <option value="">Nepal</option>
+        </select>
+<br><br>
+        Preffered coulors :
+        <select name="colours" multiple="multiple">
+          <option value="">Blue</option>
+          <option value="">Green</option>
+          <option value="">Yellow</option>
+        </select>
+      </div>
+      <br /> <br>
+
+      Profile Picture: <input type="file" accept="html" />
+      <br />
+      <br />
+      <div>Birthdate: <input type="date" /> <br /></div> <br>
+
+      <div>Email: <input type="text" /></div>
+      <br />
+      <div>Website: <input type="text" /></div>
+      <br />
+      <div>Search: <input type="text" /></div>
+      <br />
+
+      <input type="button" value="Submit" />
+    </form>
+    
+
+    
+    
+  </body>
+</html>
